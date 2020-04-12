@@ -49,7 +49,7 @@ public class TokenController {
 	
 	@RequestMapping(value = "/makeCall", consumes = "application/json", produces = "application/json", method = RequestMethod.POST)
 	private String makeCall(@RequestBody Map<String, String> body) {
-		String to = body.get("to");
+		String to = body.get("to"); 
 		return call(to);
 	}
 	
