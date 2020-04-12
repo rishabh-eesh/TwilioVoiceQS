@@ -47,9 +47,14 @@ public class TokenController {
 		return token;
 	}
 	
-	@RequestMapping(value = "/makeCall", consumes = "application/json", produces = "application/json", method = RequestMethod.POST)
-	private String makeCall(@RequestBody Map<String, String> body) {
-		String to = body.get("to"); 
+//	@RequestMapping(value = "/makeCall", consumes = "application/json", produces = "application/json", method = RequestMethod.POST)
+//	private String makeCall(@RequestBody Map<String, String> body) {
+//		String to = body.get("to"); 
+//		return call(to);
+//	}
+	
+	@RequestMapping(value = "/makeCall", produces = "application/json", method = RequestMethod.GET)
+	private String makeCall(@RequestParam("identity") String to) {
 		return call(to);
 	}
 	
