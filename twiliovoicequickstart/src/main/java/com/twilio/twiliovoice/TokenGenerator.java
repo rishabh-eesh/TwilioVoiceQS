@@ -10,8 +10,6 @@ public class TokenGenerator {
 
 	public String generateToken(final String identity) {
 		
-		
-		
 		 // Required for all types of tokens
 	    String twilioAccountSid = "AC8af4c2a68dacd0dff9a6b046fb623209";
 	    String twilioApiKey = "SKf670432ebc6a5c0fd616cea6b3bb1118";

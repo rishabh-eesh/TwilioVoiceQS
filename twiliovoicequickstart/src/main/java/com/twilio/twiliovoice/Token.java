@@ -3,7 +3,7 @@ package com.twilio.twiliovoice;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Token {
+public class Token { 
 	
 	private String accessToken = "";
 	
