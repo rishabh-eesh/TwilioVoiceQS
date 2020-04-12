@@ -53,7 +53,7 @@ public class TokenController {
 //		return call(to);
 //	}
 	
-	@RequestMapping(value = "/makeCall", produces = "application/json", method = RequestMethod.GET)
+	@RequestMapping(value = "/makeCall", produces = "audio/mpeg", method = RequestMethod.GET)
 	private String makeCall(@RequestParam("to") String to) {
 		return call(to);
 	}
