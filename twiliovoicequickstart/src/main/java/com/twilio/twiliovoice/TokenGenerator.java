@@ -14,7 +14,7 @@ public class TokenGenerator {
 	    String twilioAccountSid = "AC8af4c2a68dacd0dff9a6b046fb623209";
 	    String twilioApiKey = "SKf670432ebc6a5c0fd616cea6b3bb1118";
 	    String twilioApiSecret = "Z3qajcWcclthwBWEQynSK8oLcfdCbqY5";
-	    String twilioAppSid = "";
+	    String twilioAppSid = "APbe59e7ab6ef6027da451a15a595501a2";
 	    String twilioPushCredentialSidString = "";
 
 	    // Create Voice grant
