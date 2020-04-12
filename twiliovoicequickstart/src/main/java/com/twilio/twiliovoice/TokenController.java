@@ -54,7 +54,7 @@ public class TokenController {
 //	}
 	
 	@RequestMapping(value = "/makeCall", produces = "application/json", method = RequestMethod.GET)
-	private String makeCall(@RequestParam("identity") String to) {
+	private String makeCall(@RequestParam("to") String to) {
 		return call(to);
 	}
 	
