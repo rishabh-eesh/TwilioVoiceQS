@@ -22,7 +22,7 @@ public class TokenController {
 //	static final String IDENTITY = "alice";
     static final String CALLER_ID = "client:quick_start";
     // Use a valid Twilio number by adding to your account via https://www.twilio.com/console/phone-numbers/verified
-    static final String CALLER_NUMBER = "1234567890";
+    static final String CALLER_NUMBER = "+15856125308";
 	
 	// Token
 	@Autowired
