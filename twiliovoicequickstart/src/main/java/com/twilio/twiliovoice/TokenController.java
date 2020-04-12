@@ -33,7 +33,7 @@ public class TokenController {
 	
 	@RequestMapping(value = "/", produces = "application/json", method = RequestMethod.GET)
 	private String hello() {
-		return "Twilio voice quick start server code by Rishabh";
+		return "Twilio voice quick start server code by Rishabh...";
 	}
 	
 	@RequestMapping(value = "/accessToken", produces = "application/json", method = RequestMethod.GET)
